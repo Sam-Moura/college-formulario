@@ -8,7 +8,8 @@
 }
 
 body{
-    background-color: blueviolet;
+    background-image: linear-gradient(-45deg, #789BDD, #D951D2, #B65FC8, #8547B0);
+    background-color: ;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,6 +22,7 @@ form{
     padding: 15px;
     border-radius: 5px;
     border: 1px solid black;
+    box-shadow: 3px 3px 20px #333;
 }
 
 form h1{
@@ -52,4 +54,11 @@ button{
     text-transform: uppercase;
     font-weight: 800;
     border-radius: 5px;
+    background-color: mediumorchid;
+    color: aliceblue;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px #a19f9f;
+    
 }
+
